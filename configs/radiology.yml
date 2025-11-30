@@ -1,0 +1,8 @@
+title: Radiologist
+description: Radiologist with an MD from India or the U.S. and several years of experience reading CT and MRI scans.
+hard_criteria:
+  - MD degree from a medical school in the U.S. or India
+soft_criteria:
+  - Board certification in Radiology (ABR, FRCR, or equivalent)
+  - 3+ years of experience interpreting X-ray, CT, MRI, ultrasound, or nuclear medicine studies
+  - Expertise in diagnostic protocols, differential diagnosis, imaging workflows, or AI-assisted radiology

@@ -1,0 +1,768 @@
+
+==== Running for profile: Jane Doe (cand_001) ====
+
+>>> Config: anthropology.yml
+Loading config path: configs/anthropology.yml exists? true
+Config snippet: title: Anthropology PhD / Researcher | description: PhD student or researcher in anthropology focusing on labor migration, culture, or identity. | hard_criteria:
+Evaluation result: {
+  id: 'cand_001',
+  matched_skills: [ 'data', 'ml', 'python', 'statistics' ],
+  details: {
+    experience_years: 2,
+    education: [ 'M.S. in Data Science', 'B.S. in Statistics' ]
+  },
+  score: 0.75
+}
+Output:
+ {
+  "job_title": "Anthropology PhD / Researcher",
+  "evaluation": {
+    "id": "cand_001",
+    "matched_skills": [
+      "data",
+      "ml",
+      "python",
+      "statistics"
+    ],
+    "details": {
+      "experience_years": 2,
+      "education": [
+        "M.S. in Data Science",
+        "B.S. in Statistics"
+      ]
+    },
+    "score": 0.75
+  },
+  "final_score": 1
+}
+-----------------------------------------------------
+>>> Config: biology_expert.yml
+Loading config path: configs/biology_expert.yml exists? true
+Config snippet: title: Biology Expert | description: Biologist with a PhD from a top U.S. university, specializing in molecular biology and gene expression. | hard_criteria:
+Evaluation result: {
+  id: 'cand_001',
+  matched_skills: [ 'data', 'ml', 'python', 'statistics' ],
+  details: {
+    experience_years: 2,
+    education: [ 'M.S. in Data Science', 'B.S. in Statistics' ]
+  },
+  score: 0.75
+}
+Output:
+ {
+  "job_title": "Biology Expert",
+  "evaluation": {
+    "id": "cand_001",
+    "matched_skills": [
+      "data",
+      "ml",
+      "python",
+      "statistics"
+    ],
+    "details": {
+      "experience_years": 2,
+      "education": [
+        "M.S. in Data Science",
+        "B.S. in Statistics"
+      ]
+    },
+    "score": 0.75
+  },
+  "final_score": 1
+}
+-----------------------------------------------------
+>>> Config: data_scientist.yml
+Loading config path: configs/data_scientist.yml exists? true
+Config snippet: title: Data Scientist | description: Experienced data scientist with strong foundations in ML, statistics, and data analysis. | hard_criteria:
+Evaluation result: {
+  id: 'cand_001',
+  matched_skills: [ 'data', 'ml', 'python', 'statistics' ],
+  details: {
+    experience_years: 2,
+    education: [ 'M.S. in Data Science', 'B.S. in Statistics' ]
+  },
+  score: 0.75
+}
+Output:
+ {
+  "job_title": "Data Scientist",
+  "evaluation": {
+    "id": "cand_001",
+    "matched_skills": [
+      "data",
+      "ml",
+      "python",
+      "statistics"
+    ],
+    "details": {
+      "experience_years": 2,
+      "education": [
+        "M.S. in Data Science",
+        "B.S. in Statistics"
+      ]
+    },
+    "score": 0.75
+  },
+  "final_score": 1
+}
+-----------------------------------------------------
+>>> Config: doctors_md.yml
+Loading config path: configs/doctors_md.yml exists? true
+Config snippet: title: General Practitioner (MD) | description: U.S.-trained physician with over two years of experience as a GP, focused on chronic care management, wellness screenings, and outpatient diagnostics. | hard_criteria:
+Evaluation result: {
+  id: 'cand_001',
+  matched_skills: [ 'data', 'ml', 'python', 'statistics' ],
+  details: {
+    experience_years: 2,
+    education: [ 'M.S. in Data Science', 'B.S. in Statistics' ]
+  },
+  score: 0.75
+}
+Output:
+ {
+  "job_title": "General Practitioner (MD)",
+  "evaluation": {
+    "id": "cand_001",
+    "matched_skills": [
+      "data",
+      "ml",
+      "python",
+      "statistics"
+    ],
+    "details": {
+      "experience_years": 2,
+      "education": [
+        "M.S. in Data Science",
+        "B.S. in Statistics"
+      ]
+    },
+    "score": 0.75
+  },
+  "final_score": 1
+}
+-----------------------------------------------------
+>>> Config: junior_corporate_lawyer.yml
+Loading config path: configs/junior_corporate_lawyer.yml exists? true
+Config snippet: title: Junior Corporate Lawyer | description: Corporate lawyer with two years of experience at a top-tier international law firm, specializing in M&A support and cross-border contract negotiations. | hard_criteria:
+Evaluation result: {
+  id: 'cand_001',
+  matched_skills: [ 'data', 'ml', 'python', 'statistics' ],
+  details: {
+    experience_years: 2,
+    education: [ 'M.S. in Data Science', 'B.S. in Statistics' ]
+  },
+  score: 0.75
+}
+Output:
+ {
+  "job_title": "Junior Corporate Lawyer",
+  "evaluation": {
+    "id": "cand_001",
+    "matched_skills": [
+      "data",
+      "ml",
+      "python",
+      "statistics"
+    ],
+    "details": {
+      "experience_years": 2,
+      "education": [
+        "M.S. in Data Science",
+        "B.S. in Statistics"
+      ]
+    },
+    "score": 0.75
+  },
+  "final_score": 1
+}
+-----------------------------------------------------
+>>> Config: mathematics_phd.yml
+Loading config path: configs/mathematics_phd.yml exists? true
+Config snippet: title: Mathematics PhD | description: PhD-level mathematician with research focus. | hard_criteria:
+Evaluation result: {
+  id: 'cand_001',
+  matched_skills: [ 'data', 'ml', 'python', 'statistics' ],
+  details: {
+    experience_years: 2,
+    education: [ 'M.S. in Data Science', 'B.S. in Statistics' ]
+  },
+  score: 0.75
+}
+Output:
+ {
+  "job_title": "Mathematics PhD",
+  "evaluation": {
+    "id": "cand_001",
+    "matched_skills": [
+      "data",
+      "ml",
+      "python",
+      "statistics"
+    ],
+    "details": {
+      "experience_years": 2,
+      "education": [
+        "M.S. in Data Science",
+        "B.S. in Statistics"
+      ]
+    },
+    "score": 0.75
+  },
+  "final_score": 1
+}
+-----------------------------------------------------
+>>> Config: quantitative_finance.yml
+Loading config path: configs/quantitative_finance.yml exists? true
+Config snippet: title: Quantitative Finance | description: Quant with strong quantitative and programming skills. | hard_criteria:
+Evaluation result: {
+  id: 'cand_001',
+  matched_skills: [ 'data', 'ml', 'python', 'statistics' ],
+  details: {
+    experience_years: 2,
+    education: [ 'M.S. in Data Science', 'B.S. in Statistics' ]
+  },
+  score: 0.75
+}
+Output:
+ {
+  "job_title": "Quantitative Finance",
+  "evaluation": {
+    "id": "cand_001",
+    "matched_skills": [
+      "data",
+      "ml",
+      "python",
+      "statistics"
+    ],
+    "details": {
+      "experience_years": 2,
+      "education": [
+        "M.S. in Data Science",
+        "B.S. in Statistics"
+      ]
+    },
+    "score": 0.75
+  },
+  "final_score": 1
+}
+-----------------------------------------------------
+>>> Config: radiology.yml
+Loading config path: configs/radiology.yml exists? true
+Config at configs/radiology.yml is empty; skipping.
+Output:
+ {
+  "job_title": "radiology.yml",
+  "evaluation": null,
+  "final_score": null,
+  "skipped": true,
+  "reason": "empty or missing config file"
+}
+-----------------------------------------------------
+>>> Config: software_engineer.yml
+Loading config path: configs/software_engineer.yml exists? true
+Config at configs/software_engineer.yml is empty; skipping.
+Output:
+ {
+  "job_title": "software_engineer.yml",
+  "evaluation": null,
+  "final_score": null,
+  "skipped": true,
+  "reason": "empty or missing config file"
+}
+-----------------------------------------------------
+>>> Config: tax_lawyer.yml
+Loading config path: configs/tax_lawyer.yml exists? true
+Config at configs/tax_lawyer.yml is empty; skipping.
+Output:
+ {
+  "job_title": "tax_lawyer.yml",
+  "evaluation": null,
+  "final_score": null,
+  "skipped": true,
+  "reason": "empty or missing config file"
+}
+-----------------------------------------------------
+
+==== Running for profile: John Smith (cand_002) ====
+
+>>> Config: anthropology.yml
+Loading config path: configs/anthropology.yml exists? true
+Config snippet: title: Anthropology PhD / Researcher | description: PhD student or researcher in anthropology focusing on labor migration, culture, or identity. | hard_criteria:
+Evaluation result: {
+  id: 'cand_002',
+  matched_skills: [],
+  details: { experience_years: 1, education: [ 'B.S. in Computer Science' ] },
+  score: 0.75
+}
+Output:
+ {
+  "job_title": "Anthropology PhD / Researcher",
+  "evaluation": {
+    "id": "cand_002",
+    "matched_skills": [],
+    "details": {
+      "experience_years": 1,
+      "education": [
+        "B.S. in Computer Science"
+      ]
+    },
+    "score": 0.75
+  },
+  "final_score": 1
+}
+-----------------------------------------------------
+>>> Config: biology_expert.yml
+Loading config path: configs/biology_expert.yml exists? true
+Config snippet: title: Biology Expert | description: Biologist with a PhD from a top U.S. university, specializing in molecular biology and gene expression. | hard_criteria:
+Evaluation result: {
+  id: 'cand_002',
+  matched_skills: [],
+  details: { experience_years: 1, education: [ 'B.S. in Computer Science' ] },
+  score: 0.75
+}
+Output:
+ {
+  "job_title": "Biology Expert",
+  "evaluation": {
+    "id": "cand_002",
+    "matched_skills": [],
+    "details": {
+      "experience_years": 1,
+      "education": [
+        "B.S. in Computer Science"
+      ]
+    },
+    "score": 0.75
+  },
+  "final_score": 1
+}
+-----------------------------------------------------
+>>> Config: data_scientist.yml
+Loading config path: configs/data_scientist.yml exists? true
+Config snippet: title: Data Scientist | description: Experienced data scientist with strong foundations in ML, statistics, and data analysis. | hard_criteria:
+Evaluation result: {
+  id: 'cand_002',
+  matched_skills: [],
+  details: { experience_years: 1, education: [ 'B.S. in Computer Science' ] },
+  score: 0.75
+}
+Output:
+ {
+  "job_title": "Data Scientist",
+  "evaluation": {
+    "id": "cand_002",
+    "matched_skills": [],
+    "details": {
+      "experience_years": 1,
+      "education": [
+        "B.S. in Computer Science"
+      ]
+    },
+    "score": 0.75
+  },
+  "final_score": 1
+}
+-----------------------------------------------------
+>>> Config: doctors_md.yml
+Loading config path: configs/doctors_md.yml exists? true
+Config snippet: title: General Practitioner (MD) | description: U.S.-trained physician with over two years of experience as a GP, focused on chronic care management, wellness screenings, and outpatient diagnostics. | hard_criteria:
+Evaluation result: {
+  id: 'cand_002',
+  matched_skills: [],
+  details: { experience_years: 1, education: [ 'B.S. in Computer Science' ] },
+  score: 0.75
+}
+Output:
+ {
+  "job_title": "General Practitioner (MD)",
+  "evaluation": {
+    "id": "cand_002",
+    "matched_skills": [],
+    "details": {
+      "experience_years": 1,
+      "education": [
+        "B.S. in Computer Science"
+      ]
+    },
+    "score": 0.75
+  },
+  "final_score": 1
+}
+-----------------------------------------------------
+>>> Config: junior_corporate_lawyer.yml
+Loading config path: configs/junior_corporate_lawyer.yml exists? true
+Config snippet: title: Junior Corporate Lawyer | description: Corporate lawyer with two years of experience at a top-tier international law firm, specializing in M&A support and cross-border contract negotiations. | hard_criteria:
+Evaluation result: {
+  id: 'cand_002',
+  matched_skills: [],
+  details: { experience_years: 1, education: [ 'B.S. in Computer Science' ] },
+  score: 0.75
+}
+Output:
+ {
+  "job_title": "Junior Corporate Lawyer",
+  "evaluation": {
+    "id": "cand_002",
+    "matched_skills": [],
+    "details": {
+      "experience_years": 1,
+      "education": [
+        "B.S. in Computer Science"
+      ]
+    },
+    "score": 0.75
+  },
+  "final_score": 1
+}
+-----------------------------------------------------
+>>> Config: mathematics_phd.yml
+Loading config path: configs/mathematics_phd.yml exists? true
+Config snippet: title: Mathematics PhD | description: PhD-level mathematician with research focus. | hard_criteria:
+Evaluation result: {
+  id: 'cand_002',
+  matched_skills: [],
+  details: { experience_years: 1, education: [ 'B.S. in Computer Science' ] },
+  score: 0.75
+}
+Output:
+ {
+  "job_title": "Mathematics PhD",
+  "evaluation": {
+    "id": "cand_002",
+    "matched_skills": [],
+    "details": {
+      "experience_years": 1,
+      "education": [
+        "B.S. in Computer Science"
+      ]
+    },
+    "score": 0.75
+  },
+  "final_score": 1
+}
+-----------------------------------------------------
+>>> Config: quantitative_finance.yml
+Loading config path: configs/quantitative_finance.yml exists? true
+Config snippet: title: Quantitative Finance | description: Quant with strong quantitative and programming skills. | hard_criteria:
+Evaluation result: {
+  id: 'cand_002',
+  matched_skills: [],
+  details: { experience_years: 1, education: [ 'B.S. in Computer Science' ] },
+  score: 0.75
+}
+Output:
+ {
+  "job_title": "Quantitative Finance",
+  "evaluation": {
+    "id": "cand_002",
+    "matched_skills": [],
+    "details": {
+      "experience_years": 1,
+      "education": [
+        "B.S. in Computer Science"
+      ]
+    },
+    "score": 0.75
+  },
+  "final_score": 1
+}
+-----------------------------------------------------
+>>> Config: radiology.yml
+Loading config path: configs/radiology.yml exists? true
+Config at configs/radiology.yml is empty; skipping.
+Output:
+ {
+  "job_title": "radiology.yml",
+  "evaluation": null,
+  "final_score": null,
+  "skipped": true,
+  "reason": "empty or missing config file"
+}
+-----------------------------------------------------
+>>> Config: software_engineer.yml
+Loading config path: configs/software_engineer.yml exists? true
+Config at configs/software_engineer.yml is empty; skipping.
+Output:
+ {
+  "job_title": "software_engineer.yml",
+  "evaluation": null,
+  "final_score": null,
+  "skipped": true,
+  "reason": "empty or missing config file"
+}
+-----------------------------------------------------
+>>> Config: tax_lawyer.yml
+Loading config path: configs/tax_lawyer.yml exists? true
+Config at configs/tax_lawyer.yml is empty; skipping.
+Output:
+ {
+  "job_title": "tax_lawyer.yml",
+  "evaluation": null,
+  "final_score": null,
+  "skipped": true,
+  "reason": "empty or missing config file"
+}
+-----------------------------------------------------
+
+==== Running for profile: Dr. Alice Nguyen (cand_003) ====
+
+>>> Config: anthropology.yml
+Loading config path: configs/anthropology.yml exists? true
+Config snippet: title: Anthropology PhD / Researcher | description: PhD student or researcher in anthropology focusing on labor migration, culture, or identity. | hard_criteria:
+Evaluation result: {
+  id: 'cand_003',
+  matched_skills: [ 'data', 'ml', 'python', 'statistics', 'ml' ],
+  details: { experience_years: 2, education: [ 'Ph.D. in Computer Science' ] },
+  score: 0.75
+}
+Output:
+ {
+  "job_title": "Anthropology PhD / Researcher",
+  "evaluation": {
+    "id": "cand_003",
+    "matched_skills": [
+      "data",
+      "ml",
+      "python",
+      "statistics",
+      "ml"
+    ],
+    "details": {
+      "experience_years": 2,
+      "education": [
+        "Ph.D. in Computer Science"
+      ]
+    },
+    "score": 0.75
+  },
+  "final_score": 1
+}
+-----------------------------------------------------
+>>> Config: biology_expert.yml
+Loading config path: configs/biology_expert.yml exists? true
+Config snippet: title: Biology Expert | description: Biologist with a PhD from a top U.S. university, specializing in molecular biology and gene expression. | hard_criteria:
+Evaluation result: {
+  id: 'cand_003',
+  matched_skills: [ 'data', 'ml', 'python', 'statistics', 'ml' ],
+  details: { experience_years: 2, education: [ 'Ph.D. in Computer Science' ] },
+  score: 0.75
+}
+Output:
+ {
+  "job_title": "Biology Expert",
+  "evaluation": {
+    "id": "cand_003",
+    "matched_skills": [
+      "data",
+      "ml",
+      "python",
+      "statistics",
+      "ml"
+    ],
+    "details": {
+      "experience_years": 2,
+      "education": [
+        "Ph.D. in Computer Science"
+      ]
+    },
+    "score": 0.75
+  },
+  "final_score": 1
+}
+-----------------------------------------------------
+>>> Config: data_scientist.yml
+Loading config path: configs/data_scientist.yml exists? true
+Config snippet: title: Data Scientist | description: Experienced data scientist with strong foundations in ML, statistics, and data analysis. | hard_criteria:
+Evaluation result: {
+  id: 'cand_003',
+  matched_skills: [ 'data', 'ml', 'python', 'statistics', 'ml' ],
+  details: { experience_years: 2, education: [ 'Ph.D. in Computer Science' ] },
+  score: 0.75
+}
+Output:
+ {
+  "job_title": "Data Scientist",
+  "evaluation": {
+    "id": "cand_003",
+    "matched_skills": [
+      "data",
+      "ml",
+      "python",
+      "statistics",
+      "ml"
+    ],
+    "details": {
+      "experience_years": 2,
+      "education": [
+        "Ph.D. in Computer Science"
+      ]
+    },
+    "score": 0.75
+  },
+  "final_score": 1
+}
+-----------------------------------------------------
+>>> Config: doctors_md.yml
+Loading config path: configs/doctors_md.yml exists? true
+Config snippet: title: General Practitioner (MD) | description: U.S.-trained physician with over two years of experience as a GP, focused on chronic care management, wellness screenings, and outpatient diagnostics. | hard_criteria:
+Evaluation result: {
+  id: 'cand_003',
+  matched_skills: [ 'data', 'ml', 'python', 'statistics', 'ml' ],
+  details: { experience_years: 2, education: [ 'Ph.D. in Computer Science' ] },
+  score: 0.75
+}
+Output:
+ {
+  "job_title": "General Practitioner (MD)",
+  "evaluation": {
+    "id": "cand_003",
+    "matched_skills": [
+      "data",
+      "ml",
+      "python",
+      "statistics",
+      "ml"
+    ],
+    "details": {
+      "experience_years": 2,
+      "education": [
+        "Ph.D. in Computer Science"
+      ]
+    },
+    "score": 0.75
+  },
+  "final_score": 1
+}
+-----------------------------------------------------
+>>> Config: junior_corporate_lawyer.yml
+Loading config path: configs/junior_corporate_lawyer.yml exists? true
+Config snippet: title: Junior Corporate Lawyer | description: Corporate lawyer with two years of experience at a top-tier international law firm, specializing in M&A support and cross-border contract negotiations. | hard_criteria:
+Evaluation result: {
+  id: 'cand_003',
+  matched_skills: [ 'data', 'ml', 'python', 'statistics', 'ml' ],
+  details: { experience_years: 2, education: [ 'Ph.D. in Computer Science' ] },
+  score: 0.75
+}
+Output:
+ {
+  "job_title": "Junior Corporate Lawyer",
+  "evaluation": {
+    "id": "cand_003",
+    "matched_skills": [
+      "data",
+      "ml",
+      "python",
+      "statistics",
+      "ml"
+    ],
+    "details": {
+      "experience_years": 2,
+      "education": [
+        "Ph.D. in Computer Science"
+      ]
+    },
+    "score": 0.75
+  },
+  "final_score": 1
+}
+-----------------------------------------------------
+>>> Config: mathematics_phd.yml
+Loading config path: configs/mathematics_phd.yml exists? true
+Config snippet: title: Mathematics PhD | description: PhD-level mathematician with research focus. | hard_criteria:
+Evaluation result: {
+  id: 'cand_003',
+  matched_skills: [ 'data', 'ml', 'python', 'statistics', 'ml' ],
+  details: { experience_years: 2, education: [ 'Ph.D. in Computer Science' ] },
+  score: 0.75
+}
+Output:
+ {
+  "job_title": "Mathematics PhD",
+  "evaluation": {
+    "id": "cand_003",
+    "matched_skills": [
+      "data",
+      "ml",
+      "python",
+      "statistics",
+      "ml"
+    ],
+    "details": {
+      "experience_years": 2,
+      "education": [
+        "Ph.D. in Computer Science"
+      ]
+    },
+    "score": 0.75
+  },
+  "final_score": 1
+}
+-----------------------------------------------------
+>>> Config: quantitative_finance.yml
+Loading config path: configs/quantitative_finance.yml exists? true
+Config snippet: title: Quantitative Finance | description: Quant with strong quantitative and programming skills. | hard_criteria:
+Evaluation result: {
+  id: 'cand_003',
+  matched_skills: [ 'data', 'ml', 'python', 'statistics', 'ml' ],
+  details: { experience_years: 2, education: [ 'Ph.D. in Computer Science' ] },
+  score: 0.75
+}
+Output:
+ {
+  "job_title": "Quantitative Finance",
+  "evaluation": {
+    "id": "cand_003",
+    "matched_skills": [
+      "data",
+      "ml",
+      "python",
+      "statistics",
+      "ml"
+    ],
+    "details": {
+      "experience_years": 2,
+      "education": [
+        "Ph.D. in Computer Science"
+      ]
+    },
+    "score": 0.75
+  },
+  "final_score": 1
+}
+-----------------------------------------------------
+>>> Config: radiology.yml
+Loading config path: configs/radiology.yml exists? true
+Config at configs/radiology.yml is empty; skipping.
+Output:
+ {
+  "job_title": "radiology.yml",
+  "evaluation": null,
+  "final_score": null,
+  "skipped": true,
+  "reason": "empty or missing config file"
+}
+-----------------------------------------------------
+>>> Config: software_engineer.yml
+Loading config path: configs/software_engineer.yml exists? true
+Config at configs/software_engineer.yml is empty; skipping.
+Output:
+ {
+  "job_title": "software_engineer.yml",
+  "evaluation": null,
+  "final_score": null,
+  "skipped": true,
+  "reason": "empty or missing config file"
+}
+-----------------------------------------------------
+>>> Config: tax_lawyer.yml
+Loading config path: configs/tax_lawyer.yml exists? true
+Config at configs/tax_lawyer.yml is empty; skipping.
+Output:
+ {
+  "job_title": "tax_lawyer.yml",
+  "evaluation": null,
+  "final_score": null,
+  "skipped": true,
+  "reason": "empty or missing config file"
+}
+-----------------------------------------------------

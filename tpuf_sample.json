@@ -1,0 +1,37 @@
+[
+  {
+    "_id": "000000000000000000000001",
+    "name": "Alice Legal",
+    "rerankSummary": "Corporate lawyer experienced in M&A, due diligence and contract drafting.",
+    "education": ["yrs_3::school_Harvard::degree_jd::fos_law::start_2010::end_2013"],
+    "experience": ["yrs_5::title_Associate::company_LawFirmX::start_2014::end_2019"]
+  },
+  {
+    "_id": "000000000000000000000002",
+    "name": "Bob Data",
+    "rerankSummary": "Senior data scientist focused on machine learning, Python and statistics.",
+    "education": ["yrs_5::school_MIT::degree_phd::fos_cs::start_2012::end_2017"],
+    "experience": ["yrs_10::title_Senior Data Scientist::company_MLCo::start_2017::end_"]
+  },
+  {
+    "_id": "000000000000000000000003",
+    "name": "Carol Engineer",
+    "rerankSummary": "Backend engineer with experience building APIs, microservices and Docker.",
+    "education": ["yrs_4::school_Stanford::degree_bs::fos_cs::start_2011::end_2015"],
+    "experience": ["yrs_5::title_Backend Engineer::company_TechCo::start_2016::end_2021"]
+  },
+  {
+    "_id": "000000000000000000000004",
+    "name": "Dave Junior",
+    "rerankSummary": "Junior lawyer with internship experience in corporate transactions and basic drafting.",
+    "education": ["yrs_3::school_StateLaw::degree_jd::fos_law::start_2016::end_2019"],
+    "experience": ["yrs_1::title_Junior Associate::company_SmallFirm::start_2019::end_"]
+  },
+  {
+    "_id": "000000000000000000000005",
+    "name": "Eve Misc",
+    "rerankSummary": "Marketing professional with experience in campaign management and analytics.",
+    "education": ["yrs_4::school_UCLA::degree_bs::fos_marketing::start_2010::end_2014"],
+    "experience": ["yrs_6::title_Marketing Manager::company_AdCo::start_2015::end_2021"]
+  }
+]
